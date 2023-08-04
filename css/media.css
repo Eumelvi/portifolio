@@ -1,0 +1,331 @@
+@import "global.css";
+
+@media (max-width: 720px){
+    .bar-mobile{
+        display: block !important;
+    }
+    .bar-mobile i{
+        color: white;
+        font-size: 30px;
+        margin-right: 1.6rem;
+        margin-top: 1rem;
+        float: right !important;
+    }
+
+    .logo-menu h2{
+        font-size: 26px !important;
+    }
+    .logo-menu a{
+        margin-left: 1px !important;
+    }
+    .menu-mobile{
+        position: absolute !important;
+        margin-top: 4.4rem;
+        width: 90%;
+        padding: 8px 8px;
+        border-radius: 6px;
+        box-shadow: 3px 10px 10px rgba(68, 68, 68, 0.144);
+        background-color: white;
+    }
+    .menu-mobile li{
+        display: block;
+        margin: 1rem 0px;
+    }
+    .menu-mobile li a{
+        color: #c03afe;
+    }
+    .menu-mobile li a:hover{
+        color: #c03afe80;
+        transition: .4s;
+    }
+    .bar{
+        display: none;
+    }
+    .bar{
+        float: none !important;
+    }
+    .menu-primary{
+        padding: 0px !important;
+    }
+
+    .hd-position{
+        width: 19% !important;
+    }
+
+    .welcome-card{
+        background-color: rgba(255, 255, 255, 0.897) !important;
+        height: 390px;
+        width: 88% !important;
+        margin:auto !important;
+        margin-top: -2rem !important;
+        padding: 50px 10px !important;
+    }
+
+    
+    .welcome-card h4{
+        padding: 15px 0px !important;
+    }
+
+    .welcome-card h1{
+        padding: 10px 0px !important;
+        font-size: 40px !important;
+        margin-bottom: 7px;
+        line-height: 38px !important;
+    }
+    
+
+    .container-sobre{
+        display: block !important;
+    }
+    .sobre-mim{
+        margin-bottom: 10px !important;
+    }
+
+    .container-sobre{
+        padding: 0px !important;
+    }
+
+    .meu-texto h2{
+        display: none;
+    }
+    .img-me img{
+        display: none !important;
+    }
+    .me-mobile{
+        display: block !important;
+    }
+    .me-mobile h2{
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .meu-texto p{
+        font-size: 20px;
+        margin-right: 1rem;
+    }
+    .me-mobile img{
+        width: 70% !important;
+        margin-bottom: 2rem;
+    }
+    .banner-principal::before{
+        width: 90% !important;
+    }
+    .menu-texto h2{
+        font-size: 30px !important;
+    }
+    .meu-texto{
+        margin-top: 5rem;
+        margin-left: 0px !important;
+        float: none;
+        width: 97% !important;
+    }
+
+
+    .banner-servics::before{
+        left: 0;
+        position: absolute;
+        display: none !important;
+        width: 90% !important;
+        height: 714px;
+        z-index: -1;
+    }
+
+
+
+    .banner-servics::after{
+        bottom: -150px;
+        right: 0;
+        position: absolute;
+        width: 90% !important;
+        height: 464px;
+        z-index: -1;
+    }
+    .txt-services h2{
+        font-size: 40px;
+        margin-bottom: 2.5rem;
+        color: #c03afe;
+        margin-left: 2px !important;
+    }
+    
+    .txt-services{
+        float: none !important;
+        padding: 0px !important;
+        width: 90% !important;
+        margin-right: 0rem !important;
+    }
+    .txt-services h5{
+        margin: 0px !important;
+        width: 99% !important;
+        margin-left: 8px !important;
+    }
+
+    .container-services{
+        display: inline-flex !important;
+    }
+    .card-service{
+        background-color: white;
+        border: 1px solid #c03afe5d;
+        border-radius: 30px;
+        width: 50% !important;
+        margin: 1rem 0.5rem !important;
+    }
+    .content-card{
+        padding: 28px 10px !important;
+    }
+    .content-tools{
+        padding: 1rem 1rem;
+    }
+    .title-tools h1{
+        margin-left: 3px;
+        width: 85% !important;
+        color: white;
+        font-size: 40px;
+    }
+    .title-tools h1{
+        margin-left: 0rem !important;
+        width: 98% !important;
+        color: white;
+        font-size: 30px !important;
+    }
+
+    .container-tools{
+        width: 1001% !important;
+    }
+    
+    
+
+    .my-tools{
+        margin-top: 35rem !important;
+    }
+    .my-services{
+        background: none !important;
+        height: 600px;
+        margin-left: 10px !important;
+    }
+    .txt-services{
+        float: none !important;
+        padding: 2px 8px;
+        width: 98% !important;
+        margin-top: 55rem !important;
+        margin-right: 2rem;
+    }
+
+    
+    .container-tools{
+       width: 95% !important;
+    }
+
+    .container-tools li{
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin: 1.2rem 2px !important;
+    }
+
+    .container-tools li img{
+        width: 40px !important;
+    }
+    .title-projects{
+        margin-left: 1rem !important;
+    }
+
+    .feitos h6{
+        font-size: 18px !important;
+        display: inline-flex;
+        margin: 0px 1rem !important;
+    }
+
+    .container-grade{
+        display:block !important;  
+        margin-left: 1rem !important;
+        align-items: center !important;
+        margin-right: 0.5rem !important;
+        justify-content: center !important;
+    }
+
+    .card-grade{
+        width: 80% !important;
+        margin: 2rem 1rem !important;
+    }
+
+    .card-grade img{
+        width: 250px !important;
+    }
+    .globo-app{
+        margin-left: 0rem !important;
+        margin-top: 4rem;
+        margin-right: 0rem !important;
+    }
+
+    .title-globo h2{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .container-apps{
+        display: block !important;
+    }
+    .globo-app{
+        width: 80% !important;
+        text-align: center;
+    }
+    
+    .header{
+        padding: 0px 10px !important;
+        width: 100% !important;
+    }
+
+    .contact-container{
+        display: block !important;
+        width: 98% !important;
+        padding: 6rem 2px !important;
+    }
+
+    .socials{
+        position: absolute;
+        width: 95% !important;
+        border-bottom-left-radius: 35px;
+        padding: 1rem 0px;
+        color: white;
+        border-bottom-right-radius: 35px;
+        right: 2% !important;
+    }
+    
+
+    .card-grade img{
+        width: 110% !important;
+        border-radius: 8px;
+    }
+
+    .contact-container div{
+        margin:auto !important;
+        justify-content: center;
+    }
+
+    .img-contact img{
+        width: 90% !important;
+        margin-top: 5rem;
+    }.card-contact{
+        margin-top: 2rem;
+        width: 97% !important;
+    }
+
+    .form-contact input{
+        width: 40% !important;
+        margin: 0.5rem 1px;
+    }
+
+    .form-contact textarea{
+        background-color: #c03afe23;
+        border: none;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        color: black;
+        font-size: 10pt;
+        width: 80% !important;
+    }
+    .form-contact button{
+        width: 80% !important;
+    }
+}
